@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+#wrapper {
+    border: 2px solid red;
+    height: 300px;
+    width: 500px;
+    margin:  0 auto;
+    position: relative;
+}
+#wrapper .material-icons {
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+#wrapper img {
+    width: 500px;
+    height: 300px;
+}
+
+#wrapper #beforeLink {
+    left: 0 ;
+    top: 45%;
+}
+#wrapper #nextLink {
+    right: 0 ;
+    top: 45%;
+}
